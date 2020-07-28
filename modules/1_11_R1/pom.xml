@@ -6,14 +6,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>xyz.mackan</groupId>
-    <artifactId>Slabbo-1_11_R1</artifactId>
+    <artifactId>ItemNames-1_11_R1</artifactId>
     <version>${project.parent.version}</version>
     <packaging>jar</packaging>
 
     <parent>
         <groupId>xyz.mackan</groupId>
-        <artifactId>Slabbo-parent</artifactId>
-        <version>1.0.12</version>
+        <artifactId>ItemNames</artifactId>
+        <version>1.0.0</version>
         <relativePath>../../</relativePath>
     </parent>
 
@@ -36,12 +36,6 @@
             <artifactId>spigot</artifactId>
             <version>1.11.2-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>xyz.mackan</groupId>
-            <artifactId>Slabbo-plugin</artifactId>
-            <version>${project.parent.version}</version>
         </dependency>
     </dependencies>
 </project>

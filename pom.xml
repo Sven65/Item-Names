@@ -14,16 +14,66 @@
     <description>Small library for spigot to get nms names from ItemStacks</description>
 
     <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-javadoc-plugin</artifactId>
+                    <version>3.0.1</version>
+                    <configuration>
+                        <show>public</show>
+                        <windowtitle>ItemNames API</windowtitle>
+                        <verbose>false</verbose>
+                        <author>true</author>
+                        <version>true</version>
+                        <linksource>true</linksource>
+                        <notimestamp>true</notimestamp>
+                        <bottom><![CDATA[<b>Mackan 2020</b>]]></bottom>
+                        <outputDirectory>${project.build.directory}/javadocs-latest</outputDirectory>
+                        <reportOutputDirectory>${project.build.directory}/javadocs-latest</reportOutputDirectory>
+                        <destDir>${project.build.directory}/javadocs-latest</destDir>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
         <plugins>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>versions-maven-plugin</artifactId>
                 <version>2.7</version>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.3.2</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>3.0.1</version>
+                <configuration>
+                    <show>public</show>
+                    <windowtitle>ItemNames API</windowtitle>
+                    <verbose>false</verbose>
+                    <author>true</author>
+                    <version>true</version>
+                    <linksource>true</linksource>
+                    <notimestamp>true</notimestamp>
+                    <bottom><![CDATA[<b>Mackan 2020</b>]]></bottom>
+                    <outputDirectory>${project.build.directory}/javadocs-latest</outputDirectory>
+                    <reportOutputDirectory>${project.build.directory}/javadocs-latest</reportOutputDirectory>
+                    <destDir>${project.build.directory}/javadocs-latest</destDir>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
     <modules>
+        <module>modules/API</module>
         <module>modules/1_8_R1</module>
         <module>modules/1_8_R2</module>
         <module>modules/1_8_R3</module>
@@ -37,7 +87,6 @@
         <module>modules/1_14_R1</module>
         <module>modules/1_15_R1</module>
         <module>modules/1_16_R1</module>
-        <module>modules/Dist</module>
     </modules>
 
 </project>

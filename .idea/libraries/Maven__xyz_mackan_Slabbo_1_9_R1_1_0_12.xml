@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: xyz.mackan:Slabbo-1_9_R1:1.0.12">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/modules/1_9_R1/pom.xml!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/modules/1_9_R1/Slabbo-1_9_R1-1.0.12-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/modules/1_9_R1/Slabbo-1_9_R1-1.0.12-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
