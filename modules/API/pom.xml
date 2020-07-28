@@ -39,4 +39,89 @@
             </plugin>
         </plugins>
     </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.spigotmc</groupId>
+            <artifactId>spigot-api</artifactId>
+            <version>1.8-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>xyz.mackan</groupId>
+            <artifactId>ItemNames-1_16_R1</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>xyz.mackan</groupId>
+            <artifactId>ItemNames-1_15_R1</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>xyz.mackan</groupId>
+            <artifactId>ItemNames-1_14_R1</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>xyz.mackan</groupId>
+            <artifactId>ItemNames-1_13_R2</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>xyz.mackan</groupId>
+            <artifactId>ItemNames-1_13_R1</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>xyz.mackan</groupId>
+            <artifactId>ItemNames-1_12_R1</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>xyz.mackan</groupId>
+            <artifactId>ItemNames-1_11_R1</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>xyz.mackan</groupId>
+            <artifactId>ItemNames-1_10_R1</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>xyz.mackan</groupId>
+            <artifactId>ItemNames-1_9_R2</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>xyz.mackan</groupId>
+            <artifactId>ItemNames-1_9_R1</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>xyz.mackan</groupId>
+            <artifactId>ItemNames-1_8_R3</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>xyz.mackan</groupId>
+            <artifactId>ItemNames-1_8_R2</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>xyz.mackan</groupId>
+            <artifactId>ItemNames-1_8_R1</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+    </dependencies>
 </project>
