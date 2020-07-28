@@ -11,6 +11,7 @@
         <module name="Slabbo-1_10_R1" />
         <module name="ItemNames-1_8_R3" />
         <module name="Slabbo-1_12_R1" />
+        <module name="ItemNames-API" />
         <module name="ItemNames-1_12_R1" />
         <module name="ItemNames-1_16_R1" />
         <module name="Slabbo-1_11_R1" />
@@ -54,6 +55,7 @@
       <module name="ItemNames-1_8_R3" target="8" />
       <module name="ItemNames-1_9_R1" target="8" />
       <module name="ItemNames-1_9_R2" target="8" />
+      <module name="ItemNames-API" target="1.8" />
       <module name="ItemNames-dist" target="1.5" />
       <module name="Slabbo-1_10_R1" target="8" />
       <module name="Slabbo-1_11_R1" target="8" />
@@ -74,6 +76,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ItemNames-API" options="-parameters" />
       <module name="Slabbo-plugin" options="-parameters" />
     </option>
   </component>
