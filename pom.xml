@@ -20,7 +20,6 @@
                     <artifactId>maven-javadoc-plugin</artifactId>
                     <version>3.0.1</version>
                     <configuration>
-<!--                        <additionalOptions>-Xdoclint:none</additionalOptions>-->
                         <show>public</show>
                         <windowtitle>ItemNames API</windowtitle>
                         <verbose>false</verbose>
@@ -57,7 +56,6 @@
                 <artifactId>maven-javadoc-plugin</artifactId>
                 <version>3.0.1</version>
                 <configuration>
-<!--                    <additionalOptions>-Xdoclint:none</additionalOptions>-->
                     <show>public</show>
                     <windowtitle>ItemNames API</windowtitle>
                     <verbose>false</verbose>

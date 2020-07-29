@@ -44,7 +44,7 @@ public class VersionUtil {
 	public IItemNames getImplementation () {
 		try {
 			return implentations.stream()
-					.filter(impl -> impl.getSimpleName().substring(7).equals(serverVersion))
+					.filter(impl -> impl.getSimpleName().replace("ItemNames_v", "").equals(serverVersion))
 					.findFirst()
 					.orElseThrow(() -> new RuntimeException("ItemNames couldn't find a valid implementation for the server version!"))
 					.newInstance();
