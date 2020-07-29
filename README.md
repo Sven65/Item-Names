@@ -1,2 +1,45 @@
 # Item-Names
-Small library for spigot to get nms names from ItemStacks 
+Small library for Spigot to get NMS names from ItemStacks 
+
+This was made as a learning experience for me on how to create and use external libraries,
+and as a central dependency for these functions, so I don't have to write the code 40 times over.
+
+It's currently used in [[ChatItems]](https://github.com/Sven65/ChatItem)
+
+# Requirements
+
+Java 8 and Bukkit / Spigot.
+
+Supports versions after 1.8.
+
+#### My version isn't supported!
+
+If you're a dev, submit a pull request with an implementation for your version, otherwise create an issue on their tab.
+
+# Usage
+
+ItemNames requires Maven or a Maven compatible build System and is available on [JitPack.io](https://jitpack.io/#Sven65/Item-Names)
+
+### pom.xml
+
+```xml
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+```
+
+```xml
+<dependency>
+    <groupId>com.github.Sven65</groupId>
+    <artifactId>Item-Names</artifactId>
+    <version>1.0.0</version>
+    <scope>compile</scope>
+</dependency>
+```
+
+# Code Examples
+
+To get the name of an ItemStack, simply call `ItemNames.getItemName(ItemStack);`
