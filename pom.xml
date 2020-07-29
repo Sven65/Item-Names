@@ -6,10 +6,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>xyz.mackan</groupId>
-    <artifactId>ItemNames</artifactId>
+    <artifactId>ItemNames-parent</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
-    <name>ItemNames</name>
 
     <description>Small library for spigot to get nms names from ItemStacks</description>
 
@@ -21,6 +20,7 @@
                     <artifactId>maven-javadoc-plugin</artifactId>
                     <version>3.0.1</version>
                     <configuration>
+<!--                        <additionalOptions>-Xdoclint:none</additionalOptions>-->
                         <show>public</show>
                         <windowtitle>ItemNames API</windowtitle>
                         <verbose>false</verbose>
@@ -29,9 +29,10 @@
                         <linksource>true</linksource>
                         <notimestamp>true</notimestamp>
                         <bottom><![CDATA[<b>Mackan 2020</b>]]></bottom>
-                        <outputDirectory>${project.build.directory}/javadocs-latest</outputDirectory>
-                        <reportOutputDirectory>${project.build.directory}/javadocs-latest</reportOutputDirectory>
-                        <destDir>${project.build.directory}/javadocs-latest</destDir>
+                        <outputDirectory>javadocs-latest</outputDirectory>
+                        <reportOutputDirectory>javadocs-latest</reportOutputDirectory>
+                        <destDir>javadocs-latest</destDir>
+                        <failOnError>false</failOnError>
                     </configuration>
                 </plugin>
             </plugins>
@@ -56,6 +57,7 @@
                 <artifactId>maven-javadoc-plugin</artifactId>
                 <version>3.0.1</version>
                 <configuration>
+<!--                    <additionalOptions>-Xdoclint:none</additionalOptions>-->
                     <show>public</show>
                     <windowtitle>ItemNames API</windowtitle>
                     <verbose>false</verbose>
@@ -64,9 +66,10 @@
                     <linksource>true</linksource>
                     <notimestamp>true</notimestamp>
                     <bottom><![CDATA[<b>Mackan 2020</b>]]></bottom>
-                    <outputDirectory>${project.build.directory}/javadocs-latest</outputDirectory>
-                    <reportOutputDirectory>${project.build.directory}/javadocs-latest</reportOutputDirectory>
-                    <destDir>${project.build.directory}/javadocs-latest</destDir>
+                    <outputDirectory>javadocs-latest</outputDirectory>
+                    <reportOutputDirectory>javadocs-latest</reportOutputDirectory>
+                    <destDir>javadocs-latest</destDir>
+                    <failOnError>false</failOnError>
                 </configuration>
             </plugin>
         </plugins>
@@ -74,6 +77,7 @@
 
     <modules>
         <module>modules/API</module>
+        <module>modules/abstraction</module>
         <module>modules/1_8_R1</module>
         <module>modules/1_8_R2</module>
         <module>modules/1_8_R3</module>

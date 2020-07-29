@@ -8,31 +8,33 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ItemNames-1_13_R2" />
         <module name="ItemNames-1_13_R1" />
+        <module name="ItemNames-1_15_R1" />
         <module name="Slabbo-1_10_R1" />
         <module name="ItemNames-1_8_R3" />
         <module name="Slabbo-1_12_R1" />
         <module name="ItemNames-API" />
         <module name="ItemNames-1_12_R1" />
-        <module name="ItemNames-1_16_R1" />
-        <module name="Slabbo-1_11_R1" />
-        <module name="ItemNames-1_8_R2" />
         <module name="ItemNames-1_9_R2" />
-        <module name="ItemNames-1_10_R1" />
+        <module name="ItemNames-1_9_R1" />
         <module name="Slabbo-1_9_R2" />
         <module name="Slabbo-1_9_R1" />
+        <module name="ItemNames-1_8_R2" />
         <module name="Slabbo-plugin" />
-        <module name="Slabbo-1_16_R1" />
         <module name="ItemNames-1_11_R1" />
         <module name="Slabbo-1_8_R3" />
-        <module name="Slabbo-1_8_R2" />
-        <module name="Slabbo-1_8_R1" />
-        <module name="ItemNames-1_9_R1" />
+        <module name="ItemNames-1_10_R1" />
+        <module name="ItemNames-1_16_R1" />
+        <module name="Slabbo-1_13_R1" />
         <module name="Slabbo-1_15_R1" />
-        <module name="ItemNames-1_15_R1" />
+        <module name="Slabbo-1_8_R2" />
+        <module name="ItemNames" />
+        <module name="Slabbo-1_8_R1" />
         <module name="Slabbo-1_14_R1" />
+        <module name="ItemNames-abstraction" />
+        <module name="Slabbo-1_16_R1" />
         <module name="ItemNames-1_14_R1" />
         <module name="Slabbo-1_13_R2" />
-        <module name="Slabbo-1_13_R1" />
+        <module name="Slabbo-1_11_R1" />
       </profile>
       <profile name="Annotation profile for ItemNames" enabled="true">
         <sourceOutputDir name="../../target/generated-sources/annotations" />
@@ -43,6 +45,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Item-Names" target="1.8" />
+      <module name="ItemNames" target="1.8" />
       <module name="ItemNames-1_10_R1" target="8" />
       <module name="ItemNames-1_11_R1" target="8" />
       <module name="ItemNames-1_12_R1" target="8" />
@@ -55,6 +58,7 @@
       <module name="ItemNames-1_8_R3" target="8" />
       <module name="ItemNames-1_9_R1" target="8" />
       <module name="ItemNames-1_9_R2" target="8" />
+      <module name="ItemNames-abstraction" target="1.8" />
       <module name="ItemNames-API" target="1.8" />
       <module name="ItemNames-dist" target="1.5" />
       <module name="Slabbo-1_10_R1" target="8" />
@@ -76,7 +80,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="ItemNames-API" options="-parameters" />
+      <module name="ItemNames-API" options="" />
       <module name="Slabbo-plugin" options="-parameters" />
     </option>
   </component>

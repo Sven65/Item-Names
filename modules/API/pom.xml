@@ -11,31 +11,33 @@
 
     <parent>
         <groupId>xyz.mackan</groupId>
-        <artifactId>ItemNames</artifactId>
+        <artifactId>ItemNames-parent</artifactId>
         <version>1.0.0</version>
         <relativePath>../../</relativePath>
     </parent>
 
     <groupId>xyz.mackan</groupId>
-    <artifactId>ItemNames-API</artifactId>
+    <artifactId>ItemNames</artifactId>
     <version>${project.parent.version}</version>
     <packaging>jar</packaging>
 
     <description>Small library for spigot to get nms names from ItemStacks</description>
 
     <build>
+        <defaultGoal>clean install javadoc:javadoc</defaultGoal>
         <plugins>
             <plugin>
-                <version>3.7.0</version>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                    <compilerArgs>
-                        <arg>-parameters</arg>
-                    </compilerArgs>
-                </configuration>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>2.4</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
@@ -50,78 +52,100 @@
 
         <dependency>
             <groupId>xyz.mackan</groupId>
+            <artifactId>ItemNames-abstraction</artifactId>
+            <version>${project.parent.version}</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>xyz.mackan</groupId>
             <artifactId>ItemNames-1_16_R1</artifactId>
             <version>${project.parent.version}</version>
+            <scope>compile</scope>
         </dependency>
 
         <dependency>
             <groupId>xyz.mackan</groupId>
             <artifactId>ItemNames-1_15_R1</artifactId>
             <version>${project.parent.version}</version>
+            <scope>compile</scope>
         </dependency>
 
         <dependency>
             <groupId>xyz.mackan</groupId>
             <artifactId>ItemNames-1_14_R1</artifactId>
             <version>${project.parent.version}</version>
+            <scope>compile</scope>
         </dependency>
 
         <dependency>
             <groupId>xyz.mackan</groupId>
             <artifactId>ItemNames-1_13_R2</artifactId>
             <version>${project.parent.version}</version>
+            <scope>compile</scope>
         </dependency>
 
         <dependency>
             <groupId>xyz.mackan</groupId>
             <artifactId>ItemNames-1_13_R1</artifactId>
             <version>${project.parent.version}</version>
+            <scope>compile</scope>
         </dependency>
 
         <dependency>
             <groupId>xyz.mackan</groupId>
             <artifactId>ItemNames-1_12_R1</artifactId>
             <version>${project.parent.version}</version>
+            <scope>compile</scope>
         </dependency>
 
         <dependency>
             <groupId>xyz.mackan</groupId>
             <artifactId>ItemNames-1_11_R1</artifactId>
             <version>${project.parent.version}</version>
+            <scope>compile</scope>
         </dependency>
 
         <dependency>
             <groupId>xyz.mackan</groupId>
             <artifactId>ItemNames-1_10_R1</artifactId>
             <version>${project.parent.version}</version>
+            <scope>compile</scope>
         </dependency>
 
         <dependency>
             <groupId>xyz.mackan</groupId>
             <artifactId>ItemNames-1_9_R2</artifactId>
             <version>${project.parent.version}</version>
+            <scope>compile</scope>
         </dependency>
 
         <dependency>
             <groupId>xyz.mackan</groupId>
             <artifactId>ItemNames-1_9_R1</artifactId>
             <version>${project.parent.version}</version>
+            <scope>compile</scope>
         </dependency>
 
         <dependency>
             <groupId>xyz.mackan</groupId>
             <artifactId>ItemNames-1_8_R3</artifactId>
             <version>${project.parent.version}</version>
+            <scope>compile</scope>
         </dependency>
+
         <dependency>
             <groupId>xyz.mackan</groupId>
             <artifactId>ItemNames-1_8_R2</artifactId>
             <version>${project.parent.version}</version>
+            <scope>compile</scope>
         </dependency>
+
         <dependency>
             <groupId>xyz.mackan</groupId>
             <artifactId>ItemNames-1_8_R1</artifactId>
             <version>${project.parent.version}</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 </project>
