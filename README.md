@@ -35,8 +35,8 @@ ItemNames requires Maven or a Maven compatible build System and is available on 
 
 ```xml
 <dependency>
-    <groupId>com.github.Sven65</groupId>
-    <artifactId>Item-Names</artifactId>
+    <groupId>com.github.Sven65.Item-Names</groupId>
+    <artifactId>ItemNames</artifactId>
     <version>1.0.0</version>
     <scope>compile</scope>
 </dependency>

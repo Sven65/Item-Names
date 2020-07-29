@@ -11,6 +11,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="Slabbo-1_8_R1" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.spigotmc:spigot-api:1.8-R0.1-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: commons-lang:commons-lang:2.6" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.googlecode.json-simple:json-simple:1.1.1" level="project" />
@@ -35,6 +36,6 @@
     <orderEntry type="module" module-name="ItemNames-1_9_R1" />
     <orderEntry type="module" module-name="ItemNames-1_8_R3" />
     <orderEntry type="module" module-name="ItemNames-1_8_R2" />
-    <orderEntry type="module" module-name="Slabbo-1_8_R1" />
+    <orderEntry type="module" module-name="ItemNames-1_8_R1" />
   </component>
 </module>
