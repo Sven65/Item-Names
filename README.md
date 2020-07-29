@@ -6,6 +6,8 @@ and as a central dependency for these functions, so I don't have to write the co
 
 It's currently used in [[ChatItems]](https://github.com/Sven65/ChatItem)
 
+JavaDocs can be found [here](https://mackan.xyz/Item-Names/).
+
 # Requirements
 
 Java 8 and Bukkit / Spigot.
