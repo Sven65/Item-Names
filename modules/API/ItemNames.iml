@@ -24,6 +24,7 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: net.md-5:bungeecord-chat:1.8-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.google.code.gson:gson:2.3.1" level="project" />
     <orderEntry type="module" module-name="ItemNames-abstraction" />
+    <orderEntry type="module" module-name="ItemNames-1_16_R2" />
     <orderEntry type="module" module-name="ItemNames-1_16_R1" />
     <orderEntry type="module" module-name="ItemNames-1_15_R1" />
     <orderEntry type="module" module-name="ItemNames-1_14_R1" />
