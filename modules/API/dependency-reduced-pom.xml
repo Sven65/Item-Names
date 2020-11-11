@@ -3,13 +3,13 @@
   <parent>
     <artifactId>ItemNames-parent</artifactId>
     <groupId>xyz.mackan</groupId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <relativePath>../../pom.xml</relativePath>
   </parent>
   <modelVersion>4.0.0</modelVersion>
   <groupId>xyz.mackan</groupId>
   <artifactId>ItemNames</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
   <description>Small library for spigot to get nms names from ItemStacks</description>
   <build>
     <defaultGoal>clean install javadoc:javadoc</defaultGoal>

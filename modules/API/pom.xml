@@ -12,13 +12,13 @@
     <parent>
         <groupId>xyz.mackan</groupId>
         <artifactId>ItemNames-parent</artifactId>
-        <version>1.0.1</version>
+        <version>1.0.2</version>
         <relativePath>../../</relativePath>
     </parent>
 
     <groupId>xyz.mackan</groupId>
     <artifactId>ItemNames</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <packaging>jar</packaging>
 
     <description>Small library for spigot to get nms names from ItemStacks</description>
@@ -53,6 +53,13 @@
         <dependency>
             <groupId>xyz.mackan</groupId>
             <artifactId>ItemNames-abstraction</artifactId>
+            <version>${project.parent.version}</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>xyz.mackan</groupId>
+            <artifactId>ItemNames-1_16_R3</artifactId>
             <version>${project.parent.version}</version>
             <scope>compile</scope>
         </dependency>

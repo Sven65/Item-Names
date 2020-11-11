@@ -34,7 +34,8 @@ public class VersionUtil {
 			ItemNames_v1_14_R1.class,
 			ItemNames_v1_15_R1.class,
 			ItemNames_v1_16_R1.class,
-			ItemNames_v1_16_R2.class
+			ItemNames_v1_16_R2.class,
+			ItemNames_v1_16_R3.class
 	);
 
 	/**
