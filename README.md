@@ -12,11 +12,7 @@ JavaDocs can be found [here](https://mackan.xyz/Item-Names/).
 
 Java 8 and Bukkit / Spigot.
 
-Supports versions after 1.8.
-
-#### My version isn't supported!
-
-If you're a dev, submit a pull request with an implementation for your version, otherwise create an issue on their tab.
+Supports versions after 1.8. (Read FAQ if your version isn't supported)
 
 # Usage
 
@@ -45,3 +41,8 @@ ItemNames requires Maven or a Maven compatible build System and is available on 
 # Code Examples
 
 To get the name of an ItemStack, simply call `ItemNames.getItemName(ItemStack);`
+
+# FAQ
+
+### My version isn't supported. What should I do?
+- If you're a dev, submit a pull request with an implementation for your version, otherwise create an issue on their tab.
